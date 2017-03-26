@@ -4,6 +4,7 @@ var y = 100;
 // execute once when the program begins
 function setup() {
   createCanvas(640, 480);  // Size must be the first statement
+  canvas.position(300, 50);
   stroke(255);     // Set line drawing color to white
   frameRate(30);
 }
