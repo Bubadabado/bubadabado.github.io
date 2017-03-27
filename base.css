@@ -81,8 +81,15 @@ body {
 
 .button-bar-2{
     margin: 0 0 10px 0;
+    background-color: #4CAF50;
 }
+
+.button-bar-no-bar{
+    background-color:#119ddc;
+}
+
 
 .button-bar-selected {
     background-color: #1D7033;
 }
+

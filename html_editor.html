@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="base.css" rel="stylesheet" />
+        <title>html editor</title>
+    <style>textarea{border: 2px solid #196B8F;} </style>
+    </head>
+    <body>
+        <div id="Bar">
+            <h1>This is an html code editor!</h1>
+        </div>
+        <nav class="button-bar">
+            <a class="button button-bar-2" href="/">Home</a>
+            <a class="button button-bar-2" href="https://github.com/Bubadabado" target="_blank">My GitHub</a>
+            <a class="button button-bar-2" href="games.html">Games</a>
+            <a class="button button-bar-2" href="processing.html">Processing.js</a>
+            <span class="button button-bar-selected" href="html_editor.html">Html editor</span>
+        </nav>
+        <textarea id="type" style="height:400px;width:750px;resize: none;":></textarea>
+        <nav class="button-bar-no-bg">
+            <a class="button button-bar-2" onClick="results();">See Results!</a>
+        </nav>
+        <div style="display:none" id="results">
+        </div>
+        <script>
+            var results = function(){
+            var results = document.getElementById("results");  
+            results.style.display="";
+            var input = document.getElementById("type");
+            var input2 = input.value;
+            var div = document.getElementById("results");
+            div.innerHTML=input2;
+            }
+    </script>
+
+    </body>
+</html>
