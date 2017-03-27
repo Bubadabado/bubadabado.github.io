@@ -9,7 +9,7 @@ function setup() {
 
 function draw() {
   if (mouseIsPressed) {
-    fill(r, g, b, 127);
+    fill(r, g, b);
     r = random(255);
     g = random(255);
     b = random(255);
