@@ -4,6 +4,17 @@ body {
     text-align: center; 
 }
 
+#Bar{
+top:0;
+width:100%;
+height:60px;
+background-color:#196B8F;
+}
+
+html{
+    height:2000px;
+}
+
 .button {
     background-color: #4CAF50;
     border: none;
