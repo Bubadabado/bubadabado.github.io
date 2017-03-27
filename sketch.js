@@ -13,6 +13,7 @@ function draw() {
     r = random(255);
     g = random(255);
     b = random(255);
+    ellipse(mouseX,mouseY,80,80)
 
   } else {
     fill(255);
