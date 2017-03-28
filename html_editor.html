@@ -16,6 +16,7 @@
             <a class="button button-bar-2" href="games.html">Games</a>
             <a class="button button-bar-2" href="processing.html">Processing.js</a>
             <span class="button button-bar-selected" href="html_editor.html">Html editor</span>
+            <a class="button button-bar-2" href="other_tab.html">Other</a>
         </nav>
         <textarea id="type" style="height:400px;width:750px;resize: none;":></textarea>
         <nav class="button-bar-no-bg">
@@ -24,14 +25,13 @@
         <div style="display:none" id="results">
         </div>
         <script>
-            var results = function(){
-            var results = document.getElementById("results");  
-            results.style.display="";
-            var input = document.getElementById("type");
-            var input2 = input.value;
-            var div = document.getElementById("results");
-            div.innerHTML=input2;
-            }
+            var results = function () {
+                var resultsEl = document.getElementById("results");  
+                resultsEl.style.display = "";
+                var typeEl = document.getElementById("type");
+                var editorCode = typeEl.value;
+                resultsEl.innerHTML = editorCode;
+            };
     </script>
 
     </body>
