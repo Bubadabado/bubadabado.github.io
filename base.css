@@ -93,3 +93,8 @@ body {
     background-color: #1D7033;
 }
 
+.button-bar-small{
+    width: 10%;
+    min-width: 66px;
+}
+
