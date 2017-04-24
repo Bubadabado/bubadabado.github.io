@@ -114,9 +114,20 @@ a:hover{
 
 .troll:hover{
     position: relative;
+    -webkit-animation-name: move; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 1s; /* Safari 4.0 - 8.0 */
+    -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
     animation-name: move;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+}
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes move {
+    0%   { left:0px;}
+    25%  { left:-300px;}
+    50%  { left:0px;}
+    75%  { left:300px;}
+    100% { left:0px;}
 }
 
 @keyframes move {
