@@ -112,3 +112,27 @@ a:hover{
     margin-top: .5em;
 }
 
+.troll:hover{
+    position: relative;
+    animation-name: move;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move {
+    0%   { left:0px;}
+    25%  { left:-300px;}
+    50%  { left:0px;}
+    75%  { left:300px;}
+    100% { left:0px;}
+}
+
+#wide{
+   width: 100%;
+   margin: 0;
+   padding: 0;
+   background-color:#000
+   top: 0;
+   left: 0;
+}
+
