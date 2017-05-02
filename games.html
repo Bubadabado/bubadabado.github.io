@@ -3,6 +3,7 @@
     <head>
         <title>Games</title>
         <link href="base.css" rel="stylesheet" />
+        <link href="games.css" rel="stylesheet" />
     </head>
     <body>
         <div id="Bar">
@@ -15,12 +16,25 @@
             <a class="button button-bar-2" href="processing.html">Processing.js</a>
             <a class="button button-bar-2" href="other_tab.html">Other</a>
         </nav>
-        <div>
-            <img src="bubadabados_games.png" class="image">
+        <div class="button-bar-no-bar">
+            <a class="button button-bar-2 button-bar-small button-bar-selected banner-button" href="javascript:;">Intro</a>
+            <a class="button button-bar-2 button-bar-small dino-dash-button" href="javascript:;">Dino Dash <span class="alpha">α</span></a>
         </div>
-        <p>Games will be coming soon!</p>
-        <div class="button-bar-no-bar troll" id="wide">
-            <span class="button button-bar-2 button-bar-small">Click the button to play a game!</span>
+        <div class="game-wrapper">
+            <div class="game-frame-wrapper">
+                <iframe class="game-frame" width="600" height="300"></iframe>
+            </div>
+            <div class="splash-screen">
+                <img src="bubadabados_games.png">
+            </div>
         </div>
+        <div class="banner-text">
+            <p>Dino Dash is here! More games will be coming soon, but not that soon now!</p>
+            <div class="button-bar-no-bar troll">
+                <span class="button button-bar-2 button-bar-small">Click the button to play a game!</span>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="games.js"></script>
     </body>
 </html>

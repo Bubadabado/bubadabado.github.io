@@ -1,0 +1,27 @@
+.game-wrapper{
+    position: relative;
+}
+
+.splash-screen{
+    position: relative;
+}
+
+.hidden{
+    display: none;
+}
+.game-frame {
+    display: inline-block;
+    margin: 0 auto;
+    border: 5px solid #1D7033;
+}
+.game-frame-wrapper {
+    position: absolute;
+    top: 0;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.alpha{
+    font-family: arial;
+}
+

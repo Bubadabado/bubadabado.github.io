@@ -58,6 +58,10 @@ p{
     margin-bottom: .5em;
 }
 
+a:hover{
+    box-shadow: 0px 5px white;
+}
+
 #Bar {
     width: 100%;
     background-color:#196B8F;
@@ -94,17 +98,17 @@ p{
 }
 
 
-.button-bar-selected {
+.button-bar-selected{
     background-color: #1D7033;
+}
+
+.button-bar-selected:hover {
+    box-shadow: none;
 }
 
 .button-bar-small{
     width: 10%;
     min-width: 66px;
-}
-
-a:hover{
-    box-shadow: 0px 5px white;
 }
 
 .image{
@@ -137,13 +141,3 @@ a:hover{
     75%  { left:300px;}
     100% { left:0px;}
 }
-
-#wide{
-   width: 100%;
-   margin: 0;
-   padding: 0;
-   background-color:#000
-   top: 0;
-   left: 0;
-}
-
