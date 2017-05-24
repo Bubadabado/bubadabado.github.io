@@ -13,6 +13,7 @@
         };
         $splash.addClass("hidden");
         $bannerText.addClass("hidden");
+        $gameFrame.removeClass("game-frame-large");
         $dinoDashButton.addClass("button-bar-selected");
         $bannerButton.removeClass("button-bar-selected");
         $gameButton.removeClass("button-bar-selected");
@@ -25,6 +26,7 @@
         };
         $splash.removeClass("hidden");
         $bannerText.removeClass("hidden");
+        $gameFrame.removeClass("game-frame-large");
         $dinoDashButton.removeClass("button-bar-selected");
         $gameButton.removeClass("button-bar-selected");
         $bannerButton.addClass("button-bar-selected");
@@ -35,6 +37,7 @@
             return;
         };
         $splash.addClass("hidden");
+        $gameFrame.addClass("game-frame-large");
         $bannerText.addClass("hidden");
         $dinoDashButton.removeClass("button-bar-selected");
         $bannerButton.removeClass("button-bar-selected");

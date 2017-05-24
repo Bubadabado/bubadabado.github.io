@@ -1,12 +1,12 @@
-.game-wrapper{
+.game-wrapper {
     position: relative;
 }
 
-.splash-screen{
+.splash-screen {
     position: relative;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
 .game-frame {
@@ -14,9 +14,7 @@
     margin: 0 auto;
     border: 5px solid #1D7033;
 }
-.game-frame-large{
-    
-}
+
 .game-frame-wrapper {
     position: absolute;
     top: 0;
@@ -24,7 +22,13 @@
     transform: translate(-50%);
 }
 
-.alpha{
+.game-frame-large {
+    width: 1024;
+    height: 768;
+}
+
+.alpha {
     font-family: arial;
 }
+
 
